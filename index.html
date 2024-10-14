@@ -3,30 +3,68 @@
     <head>
         <style>
             body {
+                height: 100vh;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
                 background-color: #efefef;
                 color: #2f2f2f;
                 font-family: 'Helvetica Neue';
-
-                height: 100vh;
-                display: flex;
-                align-items: center;
-                margin: 0;
             }
 
-            .content{
+            .content {
                 margin: 0 auto;
                 padding: 0;
+                text-align: center;
             }
+
+            .content h1 {
+                font-size: 72px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 24px;
+            }
+
+            .content img {
+                width: 360px;
+                height: auto;
+                margin-bottom: 1.75em;
+            }
+
+            .block {
+                text-align: left;
+            }
+
+            
         </style>
 
         <title>ahmed sultan</title>
     </head>
+
     <body>
         <div class="content">
-            <h1 style="text-align: center; font-size: 70px; margin-top: 0; margin-bottom: 0;">ahmed k sultan</h1>
-            <p style="text-align: center;">You are probably meant to be somewhere else. Welcome to my website</p>
+            <h1>ahmed k sultan</h1>
+            <p>You are probably meant to be somewhere else. Welcome to my website</p>
+
             <br>
-            <img style="display: block; margin-left: auto; margin-right: auto; width: 350px; height: auto; margin-bottom: 2em;" src="src/img/pfp.jpg">
+
+            <div class="container">
+                <img src="src/img/pfp.jpg" alt="profile">
+                <!--
+                <div class="block">
+                   <a href="Hello">About me</a>
+                </div>
+                -->
+            </div>
+
         </div>
     </body>
 </html>

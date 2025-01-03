@@ -1,6 +1,4 @@
 ---
 layout: homepage 
-title: Welcome to My Jekyll Site
+title: home
 ---
-
-This is the home page of my Jekyll site.
